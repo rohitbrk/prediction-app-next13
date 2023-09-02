@@ -14,6 +14,7 @@ export default function Home() {
     <div>
       <form onSubmit={handleSubmit}>
         <input
+          className="md:border-solid"
           type="text"
           value={value}
           onChange={(e) => setValue(e.target.value)}

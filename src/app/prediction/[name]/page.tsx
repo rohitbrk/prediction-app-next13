@@ -13,7 +13,7 @@ async function Prediction(obj: Params) {
     <div>
       Name: {obj?.params?.name}
       <br />
-      Nationality: {nationality?.country[0]?.country_id}
+      Predicted Nationality: {nationality?.country[0]?.country_id}
     </div>
   );
 }
