@@ -13,7 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flex justify-center mt-20">{children}</body>
+      <body className="flex justify-center mt-20 text-white bg-[#111010]">
+        {children}
+      </body>
     </html>
   );
 }
